@@ -1,10 +1,13 @@
-
-function App() {
+import Vishal from "./Vishal";
+function MyApp() {
 
 
   return (
-  <h1> Hello Vishal Rao</h1>
+    <>
+    <h1> Custom App </h1>
+    <Vishal/>
+    </>
   )
 }
 
-export default App;
+export default MyApp;
